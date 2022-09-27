@@ -1,0 +1,50 @@
+.neon {
+  animation: neonAnim 2.5s alternate-reverse infinite;
+  color: #c07c9c;
+  font-family: Consolas;
+  font-size: 72px;
+}
+@keyframes neonAnim {
+  from {
+    text-shadow: 0 0 28px rgba(192, 124, 156, 0.7),
+      0 0 58px rgba(192, 124, 156, 0.7), 0 0 118px rgba(192, 124, 156, 0.7);
+  }
+  to {
+    text-shadow: 0 0 23px rgba(192, 124, 156, 0.7),
+      0 0 38px rgba(192, 124, 156, 0.7), 0 0 78px rgba(192, 124, 156, 0.7);
+  }
+}
+
+.glow {
+  -webkit-box-shadow: 0px 0px 112px 33px rgba(255, 46, 81, 0.89);
+  -moz-box-shadow: 0px 0px 112px 33px rgba(255, 46, 81, 0.89);
+  box-shadow: 0px 0px 112px 33px rgba(255, 46, 81, 0.89);
+}
+
+.glow:hover {
+  -webkit-box-shadow: 0px 0px 112px 33px rgba(255, 46, 81, 0.89);
+  -moz-box-shadow: 0px 0px 112px 33px rgba(255, 46, 81, 0.89);
+  box-shadow: 0px 0px 112px 33px rgba(255, 46, 81, 0.89);
+}
+
+body {
+  background-color: #ffdee9;
+  background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+
+  height: 100vh;
+}
+.neon3 {
+  font-family: Pacifico;
+  animation: neon3 1.5s ease-in-out infinite alternate;
+}
+@keyframes neon3 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ffdd1b,
+      0 0 70px #ffdd1b, 0 0 80px #ffdd1b, 0 0 100px #ffdd1b, 0 0 150px #ffdd1b;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ffdd1b,
+      0 0 35px #ffdd1b, 0 0 40px #ffdd1b, 0 0 50px #ffdd1b, 0 0 75px #ffdd1b;
+  }
+}
+
